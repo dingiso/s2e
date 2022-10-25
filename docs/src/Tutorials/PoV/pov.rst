@@ -373,7 +373,7 @@ secrets.
     char g_long_string[128] = "...";
     int main(int argc, char **argv)
     {
-        // Initialize a to the address of a legitimate string
+        // Initialize pointer a to the address of a legitimate string
         char *a = g_a_string;
         char buffer[32];
 
